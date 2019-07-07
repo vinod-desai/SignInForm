@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Forms</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 class="logo">Sign In</h1>
+      <!-- <div id="form-box">
+        <i id="prev-btn" class="fas fa-arrow-left"></i>
+        <i id="next-btn" class="fas fa-arrow-right"></i>
+        <div id="input-group">
+          <input id="input-field" required />
+          <label id="input-label"></label>
+          <div id="input-progress"></div>
+        </div>
+        <div id="progress-bar"></div>
+      </div> -->
+      <div id="form-box">
+        <div id="input-group1">
+          <input id="username" type="text" required />
+          <label id="input-label">Enter email or phone number</label>
+        </div>
+        <label id="input-label-err"
+          >Please enter a valid email address or phone number.</label
+        >
+      </div>
+      <br />
+      <div id="form-box">
+        <div id="input-group2">
+          <input id="password" type="password" required />
+          <label id="input-label">Enter password</label>
+        </div>
+        <label id="input-label-err"
+          >Your password must contain between 4 and 60 characters.</label
+        >
+      </div>
+      <br />
+      <div id="form-box">
+        <div id="input-group3">
+          <input id="submitBtn" type="button" value="Sign In" />
+        </div>
+      </div>
+      <br />
+      <div id="form-box">
+        <div class="checkBox displayInlineBox">
+          <input type="checkbox" name="rememberme" id="rememberme" />
+          <label for="rememberme">Remember Me</label>
+        </div>
+        <div class="needhelpLink displayInlineBox">
+          <a href="#">Need help?</a>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
